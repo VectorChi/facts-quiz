@@ -2,7 +2,7 @@ const form = document.querySelector(".quiz-form");
 const scorePopupWrapper = document.querySelector(".popup-wrapper");
 const scorePopup = document.querySelector(".score-popup");
 
-correctAnswers = ["A", "B", "B", "A", "A", "A", "B", "B", "A", "B"];
+correctAnswers = ["A", "B", "B", "A", "A", "B", "B", "B", "A", "B"];
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
